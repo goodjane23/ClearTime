@@ -38,7 +38,7 @@ internal class Program
                     }
                 case "-n":
                     {
-                        name = args[++i];
+                        name = args[++i].ToLower();
                         break;
                     }
             }
